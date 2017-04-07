@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrap{
+	width:370px;
+	background: #ccc;
+	margin:20px auto;
+	padding: 5px;
+}
+.month{
+	margin:5px;
+}
+.month li{
+	list-style: none;
+	float: left;
+	width:80px;
+	height: 80px;
+	margin: 5px;
+	text-align: center;
+	background: #000;
+	color:#fff;
+}
+.month li p{
+	padding: 10px;
+	font-weight: 800;
+	font-family: Microsoft YaHei;
+	font-size:24px;
+}
+.month li.on{
+	background: #fff;
+	color:pink;
+}
+.cont{
+	clear:both;
+	margin:10px;
+	border:1px solid #fff;
+	line-height: 30px;
+}

@@ -1,0 +1,13 @@
+.wrap{
+	width:180px;
+	margin:20px auto;
+	border:1px solid;
+	border-radius:10px;
+}
+ul li{
+	list-style: none;
+	line-height: 30px;
+}
+#all{
+	margin-left: 30px;
+}

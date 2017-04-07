@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js的36个案列(显示单击的坐标)</title>
+</head>
+<body>
+	<p>点击发送简单发送</p>
+	<script type="text/javascript">
+		document.onclick=function (event){
+			var event = event || window.event;	
+			alert("坐标：[" + event.clientX + ", " + event.clientY + "]")
+		}
+	</script>
+
+</body>
+</html>

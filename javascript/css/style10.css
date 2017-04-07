@@ -1,0 +1,25 @@
+.mark{
+	width:400px;
+	height: 200px;
+	border:2px solid #FF9900;
+	display: none;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -200px;
+	background: #fff;
+	margin-top: -100px;
+}
+.mark .top{
+	height: 30px;
+	background: #FFCC00;
+	border-bottom:2px solid #FF9900;
+
+}
+.mark .top button{
+	float: right;
+	border:none;
+	color:#FF9900;
+	background: #fff;
+	margin-top: 7px;
+}

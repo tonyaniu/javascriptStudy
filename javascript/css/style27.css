@@ -1,0 +1,29 @@
+.wrap{
+	width:300px;
+	background:#000;
+	height: 150px;
+	margin:20px auto;
+	color:#fff;
+	text-align: center;
+}
+.time{
+	height: 30px;
+	padding-top: 20px;
+	line-height: 30px;
+}
+.time span{
+	padding:5px 20px;
+	width:15px;
+	height: 5px;
+	background: #fff;
+	margin:0 5px;
+	color:#000;
+	font-weight: bold;
+	border:2px solid #ccc;
+}
+.btn{
+	width: 283px;
+	height: 50px;
+	margin-top: 20px;
+	background: url('../img/27/btn-1.png');
+}

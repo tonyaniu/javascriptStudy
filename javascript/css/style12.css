@@ -1,0 +1,17 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	width:652px;
+	margin:20px auto;
+	border:1px solid;
+	height: 270px;
+	padding:10px;
+}
+ul li{
+	list-style: none;
+	float: left;
+	border:1px solid #ccc;
+	opacity: 0.5;
+}

@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+.wrap{
+	width:300px;
+	background:url(../img/25/bg.png);
+	margin:10px auto;
+	font-family: Arial;
+}
+.wrap p{
+	float: right;
+	color:#fff;
+	height: 20px;
+}
+ul li{
+	list-style: none;
+}
+.wrap .show{
+	clear:both;
+	height: 80px;
+	background: #DFE3CC;
+
+}
+.wrap .show .deal{
+	float: right;
+}
+.wrap .show .shizi{
+	clear: both;
+	float: right;
+	font-size: 30px;
+	font-weight: 800;
+}
+.btns{
+	padding-top: 10px;
+	position:relative;
+}
+.btns ul li{
+	text-align: center;
+	line-height: 40px;
+	font-size:24px;
+	font-weight: 700;
+	color:#fff;
+	float: left;
+	width:64px;
+	height: 40px;
+	margin:8px 5px;
+	background: url("../img/25/btn.png"); 
+}
+.btns ul li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.btns ul li a:hover{
+	background: url("../img/25/btn.png") no-repeat -64px 0;
+}
+.btns .grey{
+	background: url("../img/25/btn.png") no-repeat 0 -42px;
+}
+.btns .grey a:hover{
+	background: url("../img/25/btn.png") no-repeat -64px -42px;
+}
+.btns .big{
+	width: 136px;
+	background: url("../img/25/btn.png") no-repeat 0 -82px;
+}
+.btns .big a:hover{
+	background: url("../img/25/btn.png") no-repeat 0 -122px;
+}
+.btns .orange{
+	width: 64px;
+	height: 99px;
+	line-height: 99px;
+	background: url("../img/25/btn.png") no-repeat 0 -164px;
+	position:absolute;
+	bottom: 2px;
+	right: 4px;
+}
+.btns .orange a:hover{
+	background: url("../img/25/btn.png") no-repeat -63px -164px;
+}
+.clear{
+	clear: both;
+}

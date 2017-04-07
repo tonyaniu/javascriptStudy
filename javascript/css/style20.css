@@ -1,0 +1,15 @@
+.wrap{
+	width: 300px;
+	margin:20px auto;
+}
+input{
+	width:40px;
+	display: inline-block;
+	background: #eee;
+	border:1px solid #aaa;
+}
+span{
+	min-width: 30px;
+	display: inline-block;
+	height: 20px;
+}

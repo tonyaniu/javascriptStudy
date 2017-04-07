@@ -1,0 +1,22 @@
+.wrap{
+	width:300px;
+	height: 100px;
+	background: #000;
+	margin:20px auto;
+	color:#fff;
+	line-height: 100px;
+	text-align: center;
+
+}
+.wrap span{
+	padding:5px 20px;
+	width:15px;
+	height: 5px;
+	background: #fff;
+	margin:0 5px;
+	color:#000;
+	font-weight: bold;
+	border:1px solid #ccc;
+}
+
+

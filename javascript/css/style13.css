@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrap{
+	width:500px;
+	margin:10px auto;
+	border:1px solid;
+}
+
+.tab{
+	height: 31px;
+	background: #000;
+	line-height: 30px;
+	color:#fff;
+	border-bottom: 1px solid;
+}
+.tab ul li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	list-style: none;
+}
+.tab ul li.on{
+	color:#000;
+	background: #ccc
+}
+.content{
+	padding-left: 30px;
+	
+}
+.content ul li{
+	line-height: 30px;
+	
+}
+.content ul{
+	display: none;
+}
+.content ul:nth-child(1){
+	display: block
+}

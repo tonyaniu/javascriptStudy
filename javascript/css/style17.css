@@ -1,0 +1,40 @@
+ul li{
+	list-style: none;
+}
+body{
+	background: #000;
+}
+#box{
+	width:212px;
+	height: 270px;
+	margin:20px auto;
+	border-radius: 5px;
+	background: #fff;
+	padding:5px;
+}
+#box li,#box .first{
+	float: left;
+	margin:1px 3px 0 0;
+}
+#box li img{
+	border-radius: 5px;
+}
+#box .first{
+	position: relative;
+}
+#box li.first,#box li.first img{
+	width:156px;
+	height:156px;
+	border-radius: 5px;
+}
+#box li.first div{
+	position:absolute;
+	top:0;
+	left:0;
+	width:156px;
+	height:156px;
+	display:none;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	background:#fff url(../img/17/loading.gif) 50% 50% no-repeat;
+}

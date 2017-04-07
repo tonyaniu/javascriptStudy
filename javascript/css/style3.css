@@ -1,0 +1,16 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrap{
+	width:200px;
+	height: 200px;
+	margin: 20px auto;
+}
+.wrap input{
+	margin-top:10px;
+}
+.wrap button{
+	margin-top:10px;
+	margin-left:50px;
+}

@@ -1,0 +1,16 @@
+.wrap{
+	width:500px;
+	height: 800px;
+	margin:0 auto;
+}
+.btn{
+	text-align: center;
+
+}
+.block{
+	width:100px;
+	height:100px;
+	background: #000;
+	margin:20px auto;
+
+}

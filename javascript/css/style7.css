@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
+#selitem li a{
+	text-decoration:none;
+	width: 100%;
+	display: inline-block;
+}
+ul li{
+	list-style: none;
+}
+.wrap{
+	width:300px;
+	height: 200px;
+	margin:20px auto;
+}
+
+.sel ul{
+	width:50px;
+	border:1px solid #6AC895;
+	font-size: 14px;
+	line-height: 20px;
+	display: none;
+}
+.sel ul li:last-child{
+	border-top: 1px solid #6AC895;
+}
+
+.sel ul li a:hover{
+	background: #A0C0AB;
+};

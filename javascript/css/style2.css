@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+ul li{
+	list-style:none;
+
+}
+.top{
+	height:15px;
+	line-height:15px;
+}
+.btns{
+	margin: 0 auto;
+	width: 100px;
+	line-height:15px;
+}
+.btns span{
+	width: 6px;
+	height: 6px;
+	display: inline-block;
+}
+.btns span:nth-child(1){
+	background: red;
+	border:4px solid #f00;
+}
+.btns span:nth-child(2){
+	background:#0f0;
+	border:4px solid #0f0;
+}
+.btns span:nth-child(3){
+	background: black;
+	border:4px solid #000;
+}
+.list{
+	width: 300px;
+	margin: 0 auto;
+}
+.list ul{
+	float: left;
+	
+}
+.list li{
+	float: left;
+	width:49px;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+	border-right: 1px solid #fff;
+}
+.top .btns span.aft{
+	background: #fff;
+}
